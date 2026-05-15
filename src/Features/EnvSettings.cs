@@ -59,6 +59,9 @@ public class EnvSettings
     // Variable Name: SMTP_FROM_ADDRESS
     public string SmtpFromAddress { get; private set; } = "";
 
+    // OAuth will be enabled if at least one pair is configured.
+    // Set this callback: https://YOUR_BASE_URL/api/_auth/github/callback
+
     // The GitHub Client ID for OAuth
     // Variable Name: OAUTH_GITHUB_CLIENT_ID
     public string OAuthGitHubClientId { get; private set; } = "";
